@@ -1,0 +1,86 @@
+.ctgr-list {
+  position: relative;
+  z-index: 100;
+  overflow-y: auto;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #ECECEC;
+  width: 300px;
+  padding: 31px;
+  margin: 45px 0 30px;
+  border-radius: 15px;
+  border: 1px solid #ECECEC;
+}
+.ctgr-list .ads-p {
+  color: #253D4E;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.8px;
+  margin-bottom: 30px;
+  width: 235px;
+  padding-bottom: 17px;
+  position: relative;
+  border-bottom: 1px solid #ECECEC;
+}
+.ctgr-list .ads-p::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 80px;
+  background-color: #BCE3C9;
+}
+.ctgr-list ul {
+  z-index: 1000;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ctgr-list ul li {
+  transition: 0.5s;
+  width: 238px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #F2F3F4;
+  position: relative;
+  padding-right: 30px;
+  margin: 0 5px 10px;
+}
+.ctgr-list ul li:hover {
+  border: solid 1px #3BB77E;
+}
+.ctgr-list ul li:hover .text-name {
+  color: #3BB77E;
+}
+.ctgr-list ul li a {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.ctgr-list ul li a img {
+  width: 30px;
+}
+.ctgr-list ul li a .text-name {
+  margin: 0 10px;
+  transition: 0.5s;
+  text-align: center;
+  color: #7E7E7E;
+}
+.ctgr-list ul li a .badges {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #3BB77E;
+  color: white;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  line-height: 16px;
+  font-size: 11px;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+}/*# sourceMappingURL=ctgr.css.map */

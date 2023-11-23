@@ -1,0 +1,73 @@
+.deals {
+    margin-top: -290px;
+    .deal {
+        &:hover {
+            .content-deal {
+                top: 100%;
+                left: 50%;
+                transform: translate(-50%, -65%);
+            }
+        }
+        position: relative;
+        img {
+            border-radius: 10px;
+        }
+        .content-deal {
+            box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.05);
+            transition: 0.5s;
+            width: 80%;
+            padding: 24px 30px 30px;
+            position: absolute;
+            background: white;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, 0%);
+            border-radius: 10px;
+            p {
+                color: #253D4E;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 19.2px;
+            }
+            .provider {
+                color: #B6B6B6;
+                font-family: Lato;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px;
+                p {
+                    margin-left: 3px;
+                    color: #3BB77E;
+                }
+            }
+            .price {
+                .oldprice {
+                    color: #ADADAD;
+                    font-family: Quicksand;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 26px;
+                }
+                .newprice {
+                    color: #3BB77E;
+                    font-family: Quicksand;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 26px;
+                }
+                button {
+                    display: flex;
+                    height: 36px;
+                    padding: 0px 13.8px 0px 16.25px;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 4px;
+                    background: #DEF9EC;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+.bt_header .catagorilist {
+  opacity: 0;
+  position: absolute;
+  top: 128%;
+  left: -2%;
+}
+
+.bt-Categories {
+  position: relative;
+  color: white;
+  background-color: #3BB77E;
+  cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 5px;
+  margin: 14px 0;
+  font-size: 16px;
+}
+.bt-Categories img {
+  margin-right: 10px;
+}
+.bt-Categories i {
+  margin: 5px 0 0 5px;
+  font-size: 16px;
+}
+
+.hot-deals a {
+  font-size: 16px;
+  color: #253D4E;
+  margin: 0 59px 0 35px;
+}
+.hot-deals a img {
+  margin-right: 5px;
+}
+
+.list-bth ul {
+  height: 100%;
+}
+.list-bth ul li {
+  display: flex;
+  margin-right: 34px;
+  text-align: center;
+  position: relative;
+  height: 100%;
+}
+.list-bth ul li a {
+  align-items: center;
+  display: flex;
+  font-size: 16px;
+  color: #253D4E;
+}
+.list-bth ul li a i {
+  margin-left: 5px;
+  font-size: 10px;
+}
+.list-bth ul li .dropdown-sm {
+  opacity: 0;
+  transform: translateX(-10%);
+  z-index: -3;
+  transition: 0.5s;
+  position: absolute;
+  top: 101%;
+  width: 260px;
+  box-shadow: 0 0px 5px;
+  border-radius: 4px;
+  background-color: white;
+}
+.list-bth ul li .dropdown-sm a {
+  margin: 10px 20px;
+}
+.list-bth ul li:hover .dropdown-sm {
+  opacity: 1;
+  z-index: 2;
+  transform: translateX(0%);
+  display: block;
+  z-index: 3;
+}
+
+.contact {
+  margin-left: auto;
+}
+.contact img {
+  margin-right: 10px;
+}
+.contact .hotline a {
+  color: #3BB77E;
+}
+.contact .hotline span {
+  display: block;
+  color: #7E7E7E;
+  font-size: 12px;
+}/*# sourceMappingURL=bt_header.css.map */

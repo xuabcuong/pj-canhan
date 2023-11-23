@@ -1,0 +1,28 @@
+.sm-card-list {
+    margin-top: 47px;
+    .sm-card {
+        padding: 20px 33px 20px 20px;
+        border-radius: 10px;
+        background: #f4f6fa;
+        &:hover {
+            img {
+                transform: translateY(-10px);
+            }
+        }
+        img {
+            width: 60px;
+            transition: 0.5s;
+        }
+        .sm-card-ctn {
+            margin-left: 20px;
+            p {
+                color: #242424;
+                font-size: 18px;
+            }
+            span {
+                color: #ADADAD;
+                font-size: 16px;
+            }
+        }
+    }
+}

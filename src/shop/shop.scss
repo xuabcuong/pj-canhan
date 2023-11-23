@@ -1,0 +1,73 @@
+    .listshop {
+        margin-top: 15px;
+        position: relative;
+        .asd {
+            margin-bottom: 35px;
+            align-items: center;
+            h2 {
+                color: #253D4E;
+                font-size: 32px;
+                font-weight: 700;
+            }
+            a {
+                margin-left: 40px;
+                color: #3BB77E;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                /* 162.5% */
+            }
+        }
+        .shops {
+            width: 181px;
+            border-radius: 10px;
+            border: 2px solid #F4F6FA;
+            background: #F4F6FA;
+            margin: 0 10px;
+            text-align: center;
+            padding: 40px 35px 33px;
+            h3 {
+                padding: 19px 0 3px;
+                color: #253D4E;
+                text-align: center;
+                font-family: Quicksand;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 19.2px;
+            }
+            span {
+                color: #7E7E7E;
+                text-align: center;
+                font-family: Lato;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px;
+                /* 162.5% */
+            }
+            img {
+                margin: 0 auto;
+            }
+            &:hover {
+                background: white;
+            }
+        }
+        .slick-prev {
+            opacity: 1;
+            position: absolute;
+            top: -30%;
+            left: 90%;
+            &::before {
+                color: #7E7E7E;
+            }
+        }
+        .slick-next {
+            opacity: 1;
+            position: absolute;
+            top: -30%;
+            &::before {
+                color: #7E7E7E;
+            }
+        }
+    }

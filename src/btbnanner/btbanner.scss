@@ -1,0 +1,47 @@
+.btbanner {
+    background: url(../assets/img/banner-10-min.png)no-repeat top center/cover, url(../assets/img/banner-9-min.png.png) bottom right no-repeat;
+    border-radius: 20px;
+    .ctn {
+        padding: 78px 83px 84px;
+        h2 {
+            color: #253D4E;
+            font-family: Quicksand;
+            width: 530px;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 48px;
+        }
+        p {
+            margin: 20px 0 45px;
+            color: #7E7E7E;
+            font-family: Lato;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+            a {
+                color: #3BB77E;
+            }
+        }
+        .mail {
+            background-color: white;
+            height: 64px;
+            width: 450px;
+            border-radius: 50px;
+            input {
+                height: 100%;
+                margin: 0 30px;
+            }
+            .bt-email {
+                color: white;
+                background-color: #3BB77E;
+                border-radius: 50px;
+                height: 100%;
+                margin: 0;
+                font-size: 16px;
+                padding: 20px 30px;
+            }
+        }
+    }
+}

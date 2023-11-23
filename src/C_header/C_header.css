@@ -1,0 +1,60 @@
+.C_header {
+  padding: 30px 0;
+  border-bottom: 1px solid #DEDFE2;
+}
+.C_header .search {
+  border: 2px solid #BCE3C9;
+  min-width: 600px;
+  border-radius: 3px;
+  margin-left: 70px;
+}
+.C_header .search input {
+  padding: 17px;
+  width: 300px;
+}
+.C_header .search .btn-search {
+  color: white;
+  background-color: #3BB77E;
+  padding: 0px 22px;
+  border-radius: 3px;
+  margin: 5px;
+  cursor: pointer;
+}
+.C_header .became {
+  padding: 2px 20px 7px;
+  text-align: center;
+  color: #3BB77E;
+  background-color: white;
+  box-shadow: 0 0 5px #aaa;
+  margin-left: 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.5s;
+  font-weight: 500;
+  font-size: 14px;
+}
+.C_header .became i {
+  margin-left: 10px;
+}
+.C_header .became:hover {
+  transform: translateY(-10px);
+}
+.C_header .menu {
+  margin-left: auto;
+}
+.C_header .menu ul li {
+  margin-left: 30px;
+  position: relative;
+}
+.C_header .menu ul li span {
+  position: absolute;
+  top: -17px;
+  left: 19px;
+  background-color: #3BB77E;
+  border-radius: 50%;
+  color: white;
+  width: 20px;
+}
+.C_header .menu ul li a {
+  color: #7E7E7E;
+}/*# sourceMappingURL=C_header.css.map */

@@ -1,0 +1,90 @@
+.banner-item {
+  background: url(../../src/assets/img/slider-6-min.png) no-repeat top center/cover;
+}
+
+.banner-item1 {
+  background: url(../../src/assets/img/slider-5-min.png) no-repeat top center/cover;
+}
+
+.banner .banner-content {
+  text-align: center;
+  margin: 90px 0 223px;
+}
+.banner .banner-content h2 {
+  font-size: 72px;
+  color: #253D4E;
+}
+.banner .banner-content span {
+  font-size: 30px;
+  color: #7E7E7E;
+  margin-top: 27px;
+}
+.banner:hover .slick-arrow {
+  opacity: 1;
+}
+
+.slick-dots {
+  bottom: 20px;
+}
+.slick-dots li button::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border: solid 1px #333;
+  border-radius: 50px;
+}
+.slick-dots li.slick-active button::before {
+  content: ".";
+  font-size: 15px;
+  background-color: #3BB77E;
+  border: none;
+}
+
+.slick-arrow {
+  transition: 0.5s;
+  opacity: 0;
+  z-index: 10;
+}
+.slick-arrow::before {
+  font-size: 40px;
+  transition: 0.5s;
+}
+.slick-arrow.slick-prev {
+  left: 50px;
+}
+.slick-arrow.slick-prev:hover::before {
+  color: #3BB77E;
+}
+.slick-arrow.slick-next {
+  right: 50px;
+}
+.slick-arrow.slick-next:hover::before {
+  color: #3BB77E;
+}
+
+.banner-parent {
+  position: relative;
+}
+.banner-parent .mail {
+  position: absolute;
+  background-color: white;
+  height: 64px;
+  border-radius: 50px;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.banner-parent .mail input {
+  height: 100%;
+  margin: 0 30px;
+  width: 360px;
+}
+.banner-parent .mail .bt-email {
+  color: white;
+  background-color: #3BB77E;
+  border-radius: 50px;
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  padding: 20px 30px;
+}/*# sourceMappingURL=banner.css.map */

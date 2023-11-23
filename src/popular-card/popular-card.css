@@ -1,0 +1,152 @@
+.card {
+  padding-right: 10px;
+  border: 1px #DEF9EC solid;
+  position: relative;
+  transition: 0.5s;
+  border-radius: var(--border-radius);
+  margin: 10px 2px;
+}
+.card:hover {
+  border-color: #3BB77E;
+}
+.card .card-img {
+  position: relative;
+  overflow: hidden;
+}
+.card .card-img {
+  width: 182px;
+  height: 170px;
+  margin: 20px auto 0;
+}
+.card .card-img img {
+  margin-top: 10px;
+}
+.card .card-img img.card-img1 {
+  transition: 0.5s;
+  z-index: 10;
+  opacity: 1;
+}
+.card .card-img img.card-img2 {
+  position: absolute;
+  z-index: -1;
+  right: 0px;
+  transition: 0.5s;
+  opacity: 0;
+}
+.card :hover {
+  border-color: #3BB77E;
+}
+.card :hover img {
+  transform: scale(1.05);
+}
+.card :hover img.card-img1 {
+  opacity: 0;
+  z-index: 9;
+}
+.card :hover img.card-img2 {
+  opacity: 1;
+  z-index: 10;
+}
+.card :hover .card-image-acction {
+  opacity: 1;
+}
+.card .card-image-acction {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  z-index: 100;
+  opacity: 0;
+  transition: 0.5s;
+}
+.card .card-image-acction .icon {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #3BB77E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card .card-image-acction .icon i {
+  color: #3BB77E;
+  font-size: 12px;
+}
+.card .content-popular {
+  margin: 7px 20px 23px 20px;
+}
+.card .content-popular a {
+  color: #ADADAD;
+  font-size: 12px;
+  line-height: 26px;
+}
+.card .content-popular h2 {
+  color: #253D4E;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.card .content-popular .raiting i {
+  color: #FDC040;
+  text-align: center;
+}
+.card .content-popular .raiting span {
+  color: #B6B6B6;
+  margin-left: 10px;
+}
+.card .content-popular .provider {
+  color: #ADADAD;
+  margin: 17px 0 0px;
+  display: flex;
+  font-size: 16px;
+  text-align: center;
+}
+.card .content-popular .provider a {
+  color: #3BB77E;
+  font-size: 16px;
+  margin-left: 5px;
+}
+.card .content-popular .old-price {
+  font-size: 18px;
+  color: #3BB77E;
+  display: flex;
+  align-items: center;
+}
+.card .content-popular .new-price {
+  font-size: 14px;
+  color: #ADADAD;
+  display: flex;
+  align-items: center;
+}
+.card .content-popular button {
+  color: #3BB77E;
+  background-color: #DEF9EC;
+  padding: 10px 15px;
+  margin-left: auto;
+  transition: 0.5s;
+}
+.card .content-popular button:hover {
+  transform: translatey(-10px);
+}
+
+.popular {
+  margin: 50px 0 0px;
+}
+.popular .all-popular {
+  color: #3BB77E;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.popular .all-popular:hover {
+  transform: translateY(-5px);
+  color: #3BB77E;
+}
+.popular li a {
+  margin-left: 20px;
+  color: #253D4E;
+  transition: 0.5s;
+}
+.popular li a:hover {
+  transform: translateY(-5px);
+  color: #3BB77E;
+}/*# sourceMappingURL=popular-card.css.map */
